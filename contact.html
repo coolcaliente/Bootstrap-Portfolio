@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light  container-fluid">
+        <div class="container">
+            <a class="navbar-brand w-sm-100" href="index.html">
+                <h1 class="px-sm-3 py-sm-4 my-sm-0">Andreina Keller</h1>
+            </a>
+
+            <div class="collapse navbar-collapse d-flex justify-content-sm-center justify-content-md-end" id="navbarSupportedContent"
+                id="navTabs">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="row mt-sm-4 pb-lg-5">
+            <div class="col-sm-12 col-lg-8 contentLayout mr-lg-5 ml-lg-3 py-sm-4" id="aboutContent">
+                <h2>Email Me</h2>
+                <hr>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="" class="form-control" id="name" placeholder="Tony Soprano">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tony@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                </form>
+                <button type="submit" class="btn text-white bg-info">Submit</button>
+            </div>
+
+            <aside class="mt-sm-4 col-sm-12 col-lg-3 py-sm-4 contentLayout" id="contactContent">
+                <h3>Contact Me</h3>
+                <hr>
+                <ul>
+                    <li class="d-inline">
+                        <a href="https://github.com/coolcaliente" target="_blank">
+                            <img class="mr-lg-2" src="./assets/images/github-logo.png" alt="GitHub Logo" />
+                        </a>
+                    </li>
+                    <li class="d-inline">
+                        <a href="https://www.linkedin.com/in/andreina-keller-443295b0/" target="_blank">
+                            <img class="mr-lg-2" src="./assets/images/linkedin-logo.png" alt="LinkedIn Logo" />
+                        </a>
+                    </li>
+                    <li class="d-inline">
+                        <a href="https://stackoverflow.com/users/9156521/coolcaliente" target="_blank">
+                            <img class="" src="./assets/images/stackoverflow-logo.png" alt="Stackoverflow Logo" />
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </section>
+    </div>
+
+    <div class="container-fluid fixed-bottom">
+        <div class="row">
+            <footer class="col-12 d-flex justify-content-center py-4">
+                <p>&copy; Copyright 2018 Andreina Keller</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

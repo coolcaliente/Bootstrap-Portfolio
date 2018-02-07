@@ -1,0 +1,73 @@
+body {
+    background-color: lightgray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Georgia, Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+h1 {
+    background-color:#4aaaa5;
+    color: #fff;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#aboutContent img {
+    padding-right: 20px;
+}
+
+#contactContent {
+    height: 200px;
+}
+
+#contactContent img {
+    width: 60px;
+}
+
+
+.contentLayout {
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    padding: 0
+}
+
+.navbar-brand{
+    margin: 0px;
+    padding: 0px;
+}
+
+.socialPadding {
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #666666;
+    color: #dddddd;
+    text-align: center;
+    font-size: .75rem;
+    border-top: 7px solid #4aaaa5;
+}
+
+.card {
+    width: 300px;
+}
+
+.portfolioTitle {
+    top: 60%
+}
+
+}
